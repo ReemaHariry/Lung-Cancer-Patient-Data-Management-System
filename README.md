@@ -49,3 +49,21 @@ Lung cancer is used to predict earlier diagnoses and treatment planning that can
 
 ## Data sources
 CSV file from data world website and another one created to handle some analyzing process.
+
+## ELT process
+1. Extraction: using sql server to extract data from csv files and insert it in staging layer.
+2. Loading: Load the data into data warehouse(Star schema) for future transformation and analysis.
+3. Transformation: Tranform data in suitable manner for each purpose such as analysis and prediction.
+   ![image](https://github.com/user-attachments/assets/84fa9b1c-7e38-499c-b5f3-4dfaca0f4170)
+
+## Database systems
+SQL server is used because it supports SSIS for ELT process and design data warehouse.
+![image](https://github.com/user-attachments/assets/1836fb15-e212-4af2-baa7-cc64278a46e6)
+
+## Optimization techniques
+Spark is used for it's ditributed processing and handling big data sets.
+
+## Dashboards
+![image](https://github.com/user-attachments/assets/56fe3bf8-2c0e-468c-b363-9e63d62fc487)
+![image](https://github.com/user-attachments/assets/92f0afcc-8517-4c65-bf2a-65da446b4f3d)
+
